@@ -1,0 +1,15 @@
+services:
+  lnkphm-portfolio:
+    container_name: lnkphm-portfolio
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 3000:3000
+    networks:
+      - lnkphm-portfolio
+
+networks:
+  lnkphm-portfolio:
+    external: true
