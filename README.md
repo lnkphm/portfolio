@@ -7,11 +7,33 @@ Finally created it...
 
 ## Installation
 
-Ensure NodeJS and npm is installed.
+### Prerequisites
+- [Docker](https://docs.docker.com/engine/)
+
+### Development
 
 ```bash
-npm install
-npm run dev
+# Create new network for development
+docker network create lnkphm-portfolio-dev
+
+# Build dev
+docker compose -f docker-compose.dev.yml build
+
+# Up dev
+docker compose -f docker-compose.dev.yml up
+```
+
+### Production
+
+```bash
+# Create new network for production
+docker network create lnkphm-portfolio
+
+# Build dev
+docker compose -f docker-compose.yml build
+
+# Up dev
+docker compose -f docker-compose.yml up
 ```
 
 ## Usage
