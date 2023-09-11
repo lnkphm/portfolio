@@ -10,8 +10,18 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon16.png" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon/favicon32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon/favicon16.png"
+        />
         <meta name="robots" content="follow, index" />
         <meta name="description" content={meta.description} />
         <meta property="og:site_name" content={meta.title} />
