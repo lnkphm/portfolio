@@ -1,13 +1,15 @@
+[![Build][ci-img]][ci]
+
 # Portfolio
 
 Finally created it...
 
 ![social-share](https://github.com/lnkphm/portfolio/assets/44250072/4ebb8ca4-42d6-4e93-ae16-1c93ce707910)
 
-
 ## Installation
 
 ### Prerequisites
+
 - [Docker](https://docs.docker.com/engine/)
 
 ### Development
@@ -50,3 +52,6 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+[ci]: https://github.com/lnkphm/portfolio/actions?query=branch%3Amain
+[ci-img]: https://github.com/lnkphm/portfolio/actions/workflows/build.yml/badge.svg?branch=main
