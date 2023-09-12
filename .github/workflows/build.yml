@@ -1,4 +1,4 @@
-name: Portfolio CI
+name: Github CI
 on:
   push:
     branches: [ main ]
