@@ -31,10 +31,10 @@ docker compose -f docker-compose.dev.yml up
 # Create new network for production
 docker network create lnkphm-portfolio
 
-# Build dev
+# Build prod
 docker compose -f docker-compose.yml build
 
-# Up dev
+# Up prod
 docker compose -f docker-compose.yml up
 ```
 

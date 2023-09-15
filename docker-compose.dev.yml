@@ -9,8 +9,6 @@ services:
     volumes:
       - ./:/app
     restart: always
-    ports:
-      - 3000:3000
     networks:
       - lnkphm-portfolio-dev
 
