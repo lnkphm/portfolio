@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lnkphm-portfolio
+  labels:
+    app: lnkphm-portfolio
+spec:
+  selector:
+    matchLabels:
+      app: lnkphm-portfolio
+  replicas: 2
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: lnkphm-portfolio
+    spec:
+      containers:
+        - name: lnkphm-portfolio
+          image: lnkphm/portfolio:latest
+          ports:
+            - containerPort: 3000

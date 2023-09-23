@@ -1,0 +1,3 @@
+resources:
+  - portfolio-deployment.yml
+  - portfolio-service.yml
