@@ -1,6 +1,6 @@
-[![Build][ci-img]][ci]
-
 # Portfolio
+
+[![Build][ci-img]][ci]
 
 Finally created it...
 
