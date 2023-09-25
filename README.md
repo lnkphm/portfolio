@@ -1,6 +1,7 @@
 # Portfolio
 
 [![Build][ci-img]][ci]
+[![Deploy][cd-img]][cd]
 
 Finally created it...
 
@@ -53,5 +54,7 @@ Please make sure to update tests as appropriate.
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-[ci]: https://github.com/lnkphm/portfolio/actions?query=branch%3Amain
+[ci]: https://github.com/lnkphm/portfolio/actions?query=branch%3Amain+workflow%3A%22Github+CI%22++
+[cd]: https://github.com/lnkphm/portfolio/actions?query=branch%3Amain+workflow%3A%22Github+CD%22++
 [ci-img]: https://github.com/lnkphm/portfolio/actions/workflows/build.yml/badge.svg?branch=main
+[cd-img]: https://github.com/lnkphm/portfolio/actions/workflows/deploy.yml/badge.svg?branch=main
