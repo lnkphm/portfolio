@@ -1,9 +1,8 @@
 # Portfolio
 
-[![Build][ci-img]][ci]
-[![Deploy][cd-img]][cd]
+[![github-actions][github-actions-img]][github-actions]
 
-Finally created it...
+My personal website
 
 ![social-share](https://github.com/lnkphm/portfolio/assets/44250072/4ebb8ca4-42d6-4e93-ae16-1c93ce707910)
 
@@ -54,7 +53,5 @@ Please make sure to update tests as appropriate.
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-[ci]: https://github.com/lnkphm/portfolio/actions?query=branch%3Amain+workflow%3A%22Github+CI%22++
-[cd]: https://github.com/lnkphm/portfolio/actions?query=branch%3Amain+workflow%3A%22Github+CD%22++
-[ci-img]: https://github.com/lnkphm/portfolio/actions/workflows/build.yml/badge.svg?branch=main
-[cd-img]: https://github.com/lnkphm/portfolio/actions/workflows/deploy.yml/badge.svg?branch=main
+[github-actions]: https://github.com/lnkphm/portfolio/actions?query=branch%3Amain+workflow%3A%22Github+CI%2FCD%22
+[github-actions-img]: https://github.com/lnkphm/portfolio/actions/workflows/build-and-deploy.yml/badge.svg?branch=main
