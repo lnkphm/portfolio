@@ -3,3 +3,30 @@ type: page
 title: About
 date: 2023-01-01
 ---
+
+import Image from "next/image";
+import Link from "next/link";
+
+<div className="flex flex-row">
+  <div className="basis-1/4 md:basis-1/3">
+    <Image
+      src="/images/about_me.jpg"
+      width={500}
+      height={500}
+      alt="Picture of me :)"
+    />
+  </div>
+  <div className="basis-3/4 md:basis-2/3 pl-6 flex flex-col justify-center align-center">
+    <div>
+      Hi there! I'm Linh Pham, a software engineer from Vietnam with 3 years of
+      professional experience and many more as a hobby. I love to use my skills
+      to solve problems and bring the best experience to everyone.
+    </div>
+    <div>
+      I'm also an avid Neovim user and a [Grug developer](https://grugbrain.dev).
+    </div>
+    <div>
+      Contact me: [lnkphm@gmail.com](emailto:lnkphm@gmail.com)
+    </div>
+  </div>
+</div>
