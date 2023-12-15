@@ -41,3 +41,14 @@ jobs:
         run: npm ci
       - name: Run lint
         run: npm run lint
+  build_image:
+    name: Build image
+    runs-on: ubuntu-latest
+    env:
+      IMAGE_NAME: lnkphm-portfolio
+      IMAGE_TAG: ${{ github.sha }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile --tag $IMAGE_NAME:$IMAGE_TAG
