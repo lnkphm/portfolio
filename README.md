@@ -16,27 +16,13 @@ My personal website
 ### Development
 
 ```bash
-# Create new network for development
-docker network create lnkphm-portfolio-dev
-
-# Build dev
-docker compose -f docker-compose.dev.yml build
-
-# Up dev
 docker compose -f docker-compose.dev.yml up
 ```
 
 ### Production
 
 ```bash
-# Create new network for production
-docker network create lnkphm-portfolio
-
-# Build prod
-docker compose -f docker-compose.yml build
-
-# Up prod
-docker compose -f docker-compose.yml up
+docker compose up
 ```
 
 ## Usage
