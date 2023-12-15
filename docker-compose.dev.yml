@@ -3,7 +3,7 @@ services:
     container_name: lnkphm-portfolio-dev
     build:
       context: ./
-      dockerfile: dev.Dockerfile
+      dockerfile: Dockerfile.dev
     env_file:
       - .env
     volumes:
@@ -12,8 +12,7 @@ services:
     ports:
       - 3000:3000
     networks:
-      - lnkphm-portfolio-dev
+      - portfolio
 
 networks:
-  lnkphm-portfolio-dev:
-    external: true
+  portfolio:
