@@ -1,6 +1,7 @@
 # Portfolio
 
-[![github-actions][github-actions-img]][github-actions]
+[![CI](https://github.com/lnkphm/portfolio/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lnkphm/portfolio/actions/workflows/ci.yml)
+[![CD](https://github.com/lnkphm/portfolio/actions/workflows/cd.yml/badge.svg?branch=main)](https://github.com/lnkphm/portfolio/actions/workflows/cd.yml)
 
 My personal website
 
@@ -52,6 +53,3 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-[github-actions]: https://github.com/lnkphm/portfolio/actions?query=branch%3Amain+workflow%3A%22Github+CI%2FCD%22
-[github-actions-img]: https://github.com/lnkphm/portfolio/actions/workflows/build-and-deploy.yml/badge.svg?branch=main
